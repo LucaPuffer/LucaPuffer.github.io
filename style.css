@@ -1,0 +1,87 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-image:url(Island.jpg);
+}
+h1, h2, h3 {
+    text-align: center;
+    margin: 0;
+    font-weight: 400;
+}
+h1 {
+	font-size: 350%;
+	font-family: fantasy;
+    padding: 3% 0 0 0;
+    color: white;
+}
+h2 {
+	font-size: 200%;
+    padding: 1% 0;
+    font-family: fantasy;
+}
+h3 {
+    font-size: 120%;
+    padding: 1vw 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#fauna {
+    background-color: white;
+    color:black;
+    
+}
+#flora {
+    background-color: turquoise;
+    color: white;
+}
+#culture {
+    background-color: #3757cd;
+    color:white;
+}
+
+.cont{
+    justify-content: space-around; 
+    width: 30%;
+    margin-left: 2.5%;
+    height: 44vw;
+    margin-top:1%;
+}
+
+#flora .cont{
+    display:grid;
+	grid-template-columns:  25% 25% 25%; 
+	justify-content: space-around; 
+}
+
+#culture .cont{
+    display:grid;
+	grid-template-columns:  25% 25% 25%; 
+	justify-content: space-around;
+}
+
+.grid1{
+    display:grid;
+	grid-template-columns:  25% 55%; 
+	justify-content: space-around;
+}
+
+
+
+
+.grid-container-5{
+    margin-top:2%;
+    margin-bottom:2%;
+    text-align: center;
+}
+
+img{
+    height:10vw;
+    width:50%;
+    margin-left: 25%;
+}
+
+#flex{
+    display: flex;
+}
+
